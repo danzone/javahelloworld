@@ -22,4 +22,4 @@ VOLUME /data/myvol
 
 EXPOSE 21 22 23
 
-#ENTRYPOINT ["java","-cp","bin","HelloWorld"]
+ENTRYPOINT ["java","-cp","bin","HelloWorld"]
